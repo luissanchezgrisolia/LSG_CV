@@ -63,12 +63,11 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = 'STIXGeneral'
 
-fig, ax = plt.subplots(figsize=(9, 13))
+fig, ax = plt.subplots(figsize=(11, 13))
 
 # Decorative Lines
 
-#plt.axvline(x=.99, ymin=0, ymax=0.63, color='#B3E5FC', alpha=0.8, linewidth=300)  #Rightline
-plt.axhline(y=.96, xmin=0, xmax=1, color='#64B5F6', linewidth=1)                   #After name hor line
+plt.axhline(y=.96, xmin=0, xmax=.8, color='#64B5F6', linewidth=1)                   #After name hor line
 plt.axvline(x=.02, ymin=.325, ymax=0.80, color='#CFD8DC', alpha=0.8, linewidth=1)  #Time line work
 plt.axhline(y=.835, xmin=0.0, xmax=0.225, color='#B3E5FC', linewidth=12)           #Workexp. square 
 plt.axhline(y=0.805, xmin=0.018, xmax=0.02, color='#CFD8DC', linewidth=5)          #Work line square 1
@@ -148,12 +147,12 @@ plt.annotate(ActFourDesc, (.75,.0), weight='regular', fontsize=10)
 
 
 #add qr code
-#from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
-#import matplotlib.image as mpimg
-#arr_code = mpimg.imread('ekresumecode.png')
-#imagebox = OffsetImage(arr_code, zoom=0.5)
-#ab = AnnotationBbox(imagebox, (0.84, 0.12))
-#ax.add_artist(ab)
+from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
+import matplotlib.image as mpimg
+arr_code = mpimg.imread('qr_cv.png')
+imagebox = OffsetImage(arr_code, zoom=0.25)
+ab = AnnotationBbox(imagebox, (0.92, .96))
+ax.add_artist(ab)
 
 #plt.savefig('resumeexample.png', dpi=300, bbox_inches='tight')
-#plt.savefig('CV_Luis_Sanchez.pdf') 
+plt.savefig('CV_Luis_Sanchez.pdf') 
