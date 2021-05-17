@@ -69,18 +69,18 @@ fig, ax = plt.subplots(figsize=(11, 13))
 
 plt.axhline(y=.96, xmin=0, xmax=.8, color='#64B5F6', linewidth=1)                   #After name hor line
 plt.axvline(x=.02, ymin=.325, ymax=0.80, color='#CFD8DC', alpha=0.8, linewidth=1)  #Time line work
-plt.axhline(y=.835, xmin=0.0, xmax=0.225, color='#B3E5FC', linewidth=12)           #Workexp. square 
+plt.axhline(y=.835, xmin=0.0, xmax=0.188, color='#B3E5FC', linewidth=12)           #Workexp. square 
 plt.axhline(y=0.805, xmin=0.018, xmax=0.02, color='#CFD8DC', linewidth=5)          #Work line square 1
 plt.axhline(y=0.63, xmin=0.018, xmax=0.02, color='#CFD8DC', linewidth=5)           #Work line square 2
 plt.axhline(y=0.485, xmin=0.018, xmax=0.02, color='#CFD8DC', linewidth=5)          #Work line square 3
 plt.axhline(y=0.385, xmin=0.018, xmax=0.02, color='#CFD8DC', linewidth=5)          #Work line square 4
-plt.axhline(y=.295, xmin=0.0, xmax=0.136, color='#B3E5FC', linewidth=12)           #Education square
-plt.axhline(y=.835, xmin=0.755, xmax=0.842, color='#B3E5FC', linewidth=12)         #Profile square
-plt.axhline(y=.77, xmin=0.758, xmax=0.7581, color='#2196F3', linewidth=10)         #LinkedIn square
-plt.axhline(y=.72, xmin=0.755, xmax=0.922, color='#B3E5FC', linewidth=12)          #Tech square
-plt.axhline(y=.555, xmin=0.755, xmax=0.882, color='#B3E5FC', linewidth=12)         #Lang square
-plt.axhline(y=.475, xmin=0.755, xmax=0.934, color='#B3E5FC', linewidth=12)         #Certf square
-plt.axhline(y=.245, xmin=0.755, xmax=0.957, color='#B3E5FC', linewidth=12)         #Act square
+plt.axhline(y=.295, xmin=0.0, xmax=0.115, color='#B3E5FC', linewidth=12)           #Education square
+plt.axhline(y=.835, xmin=0.725, xmax=0.795, color='#B3E5FC', linewidth=12)         #Profile square
+plt.axhline(y=.77, xmin=0.727, xmax=0.7273, color='#2196F3', linewidth=10)         #LinkedIn square
+plt.axhline(y=.72, xmin=0.725, xmax=0.863, color='#B3E5FC', linewidth=12)          #Tech square
+plt.axhline(y=.555, xmin=0.725, xmax=0.83, color='#B3E5FC', linewidth=12)          #Lang square
+plt.axhline(y=.475, xmin=0.725, xmax=0.872, color='#B3E5FC', linewidth=12)         #Certf square
+plt.axhline(y=.245, xmin=0.725, xmax=0.89, color='#B3E5FC', linewidth=12)          #Act square
 
 
 # set background color
@@ -122,37 +122,37 @@ plt.annotate(EduThreeTime, (0,.062), weight='regular', fontsize=10)
 plt.annotate(EduFourTitle, (0,.035), weight='bold', fontsize=11)
 plt.annotate(EduFourUni, (0,.018), weight='regular', fontsize=10)
 plt.annotate(EduFourTime, (0,.002), weight='regular', fontsize=10)
-plt.annotate(ProfileHeader, (.75,.83), weight='bold', fontsize=11)
-plt.annotate(Profile, (.75,.751), weight='regular', fontsize=10)
-plt.annotate(TechHeader, (.75,.715), weight='bold', fontsize=11)
-plt.annotate(TechDesc, (.75,.59), weight='regular', fontsize=10)
-plt.annotate(LangHeader, (.75,.55), weight='bold', fontsize=11)
-plt.annotate(LangDesc, (.75,.51), weight='regular', fontsize=10)
-plt.annotate(CertHeader, (.75,.47), weight='bold', fontsize=11)
-plt.annotate(CertOneDesc, (.75,.43), weight='bold', fontsize=10)
-plt.annotate(CertOneUni, (.75,.40), weight='regular', fontsize=10)
-plt.annotate(CertTwoDesc, (.75,.37), weight='bold', fontsize=10)
-plt.annotate(CertTwoUni, (.75,.34), weight='regular', fontsize=10)
-plt.annotate(CertThreeDesc, (.75,.31), weight='bold', fontsize=10)
-plt.annotate(CertThreeUni, (.75,.28), weight='regular', fontsize=10)
-plt.annotate(ActHeader, (.75,.24), weight='bold', fontsize=11)
-plt.annotate(ActOneTime, (.75,.21), weight='regular', fontsize=10,alpha=.7)
-plt.annotate(ActOneDesc, (.75,.165), weight='regular', fontsize=10)
-plt.annotate(ActTwoTime, (.75,.14), weight='regular', fontsize=10,alpha=.7)
-plt.annotate(ActTwoDesc, (.75,.11), weight='regular', fontsize=10)
-plt.annotate(ActThreeTime, (.75,.085), weight='regular', fontsize=10,alpha=.7)
-plt.annotate(ActThreeDesc, (.75,.055), weight='regular', fontsize=10)
-plt.annotate(ActFourTime, (.75,.03), weight='regular', fontsize=10,alpha=.7)
-plt.annotate(ActFourDesc, (.75,.0), weight='regular', fontsize=10)
+plt.annotate(ProfileHeader, (.72,.83), weight='bold', fontsize=11)
+plt.annotate(Profile, (.72,.751), weight='regular', fontsize=10)
+plt.annotate(TechHeader, (.72,.715), weight='bold', fontsize=11)
+plt.annotate(TechDesc, (.72,.59), weight='regular', fontsize=10)
+plt.annotate(LangHeader, (.72,.55), weight='bold', fontsize=11)
+plt.annotate(LangDesc, (.72,.51), weight='regular', fontsize=10)
+plt.annotate(CertHeader, (.72,.47), weight='bold', fontsize=11)
+plt.annotate(CertOneDesc, (.72,.43), weight='bold', fontsize=10)
+plt.annotate(CertOneUni, (.72,.40), weight='regular', fontsize=10)
+plt.annotate(CertTwoDesc, (.72,.37), weight='bold', fontsize=10)
+plt.annotate(CertTwoUni, (.72,.34), weight='regular', fontsize=10)
+plt.annotate(CertThreeDesc, (.72,.31), weight='bold', fontsize=10)
+plt.annotate(CertThreeUni, (.72,.28), weight='regular', fontsize=10)
+plt.annotate(ActHeader, (.72,.24), weight='bold', fontsize=11)
+plt.annotate(ActOneTime, (.72,.21), weight='regular', fontsize=10,alpha=.7)
+plt.annotate(ActOneDesc, (.72,.165), weight='regular', fontsize=10)
+plt.annotate(ActTwoTime, (.72,.14), weight='regular', fontsize=10,alpha=.7)
+plt.annotate(ActTwoDesc, (.72,.11), weight='regular', fontsize=10)
+plt.annotate(ActThreeTime, (.72,.085), weight='regular', fontsize=10,alpha=.7)
+plt.annotate(ActThreeDesc, (.72,.055), weight='regular', fontsize=10)
+plt.annotate(ActFourTime, (.72,.03), weight='regular', fontsize=10,alpha=.7)
+plt.annotate(ActFourDesc, (.72,.0), weight='regular', fontsize=10)
 
 
-#add qr code
+#Add qr code
 from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
 import matplotlib.image as mpimg
 arr_code = mpimg.imread('qr_cv.png')
 imagebox = OffsetImage(arr_code, zoom=0.25)
-ab = AnnotationBbox(imagebox, (0.92, .96))
+ab = AnnotationBbox(imagebox, (0.91, .95))
 ax.add_artist(ab)
 
-#plt.savefig('resumeexample.png', dpi=300, bbox_inches='tight')
+#Save as PDF
 plt.savefig('CV_Luis_Sanchez.pdf') 
